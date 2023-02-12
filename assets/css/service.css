@@ -1,0 +1,60 @@
+.layout {
+  min-height: 10vh !important;
+  color: var(--white-color);
+  padding-bottom: 15px;
+}
+.law-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  border: 8px solid var(--white-color);
+  text-align: center;
+  position: relative;
+  top: -20px;
+  margin: 0 10px;
+}
+.law-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.content .underscool,
+.content .underscool2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+.content .underscool2 {
+  color: var(--main-color);
+}
+.lines,
+.lines2 {
+  position: relative;
+  height: 45px;
+  width: 160px;
+  margin: 0 12px 20px 15px;
+}
+
+.lines::before,
+.lines2::before {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 4px;
+  margin-top: 15px;
+  background-color: var(--white-color);
+  top: 45%;
+}
+.lines2::before {
+  background-color: var(--main-color) !important;
+}
+.service-info {
+  margin-top: -25px;
+  padding-bottom: 50px;
+}
+
+.service-details {
+  margin-bottom: 200px;
+}
