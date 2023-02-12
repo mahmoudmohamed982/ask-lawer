@@ -83,7 +83,7 @@ languageSelector.addEventListener("change", (event) => {
 });
 //   btn EventListener
 document.addEventListener("DOMContentLoaded", () => {
-    const language = localStorage.getItem("lang") || "en"; // اذا لم تكن اللغة متوفرة استخدم الانجليزية
+    const language = localStorage.getItem("lang") || "ar"; // اذا لم تكن اللغة متوفرة استخدم الانجليزية
     setLanguage(language);
 
 
