@@ -45,7 +45,7 @@
   height: 4px;
   margin-top: 15px;
   background-color: var(--white-color);
-  top: 45%;
+  top: 85%;
 }
 .lines2::before {
   background-color: var(--main-color) !important;
